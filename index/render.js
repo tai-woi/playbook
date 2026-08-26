@@ -1,4 +1,7 @@
 
+// 使用中文索引
+asbm.markdown.index = '索引.md';
+
 // 应用 marked-katex-extension 扩展
 marked.use(markedKatex({
   throwOnError: asbm.silent
